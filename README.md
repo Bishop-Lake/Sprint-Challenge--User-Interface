@@ -34,13 +34,23 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+    Semantics its the branch of linguistics dedicated to meaning, in this same way Semantic html is dedicated to useing <tags> in the most descriptive way possible. A entire page made of just <div>'s and <span>'s may work and not break any HTML rules, it makes it extreamly difficult for screen readers and developers to understand what the code is doing at a glance. For this reason, Semantic html dictates the use of tags like <footer>, <header>, and <nav> (et al.) to better give ideas what the code is doing. 
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+    Display: block takes up an entire row. inline-block however can hold multiple objects on the same row and flows with other content.
 
 3. What are the 4 areas of the box model?
 
+    Margin, Padding, Border, Content.
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+    Align-items: center works on the cross axis.
+
 5. Explain why git is valuable to a team of developers.
+
+    Git is valueable to a team of developers because it offors the ability to create "check-points" in work, where if application breaking bug were to arise they could roll back the code to a stable point. It also allows developers to work togehter on projects independantly of eachother and decide upon best solutions and merge the fixes/changes with the base. 
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
